@@ -1,0 +1,87 @@
+body {
+    font-family: "Roboto Mono", monospace;
+    text-align: center;
+    background-image: url("https://caelum-online-public.s3.amazonaws.com/assets-imersaodev/background_mentalista.png");
+    background-color: #000000;
+    background-size: cover;
+    background-position: center top;
+    background-repeat: no-repeat;
+    height: 100vh;
+  }
+  
+  .container {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .page-title {
+    color: #ffffff;
+    margin: 0 0 5px;
+  }
+  
+  .page-subtitle {
+    color: #ffffff;
+    margin-top: 5px;
+  }
+  
+  .page-logo {
+    width: 170px;
+  }
+  
+  .alura-latam-logo {
+    width: 40px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+  }
+  
+  body > img {
+    margin: 0 10px;
+  }
+  
+  img {
+    max-height: 350px;
+  }
+  
+  .ingresar label{
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+  }
+
+  input[type="number"]{
+    color: rgb(197, 197, 197);
+  }
+
+  ::placeholder {
+    color: rgb(197, 197, 197);
+  }
+
+  .ingresar input {
+    margin: 20px 0 20px 0;
+    border-radius: 15px;
+    padding: 10px 25px;
+    background-color: #595959;
+  }
+
+  .ingresar button {
+    border-radius: 20px;
+    background-color: rgb(0, 161, 183);
+    color: #ffffff;
+    font-weight: bold;
+    padding: 8px 12px;
+    cursor: pointer;
+  }
+
+  button:hover {
+    opacity: 0.8;
+    transition: 0.3s;
+  }
+
+  .containerText {
+    color: white;
+  }
+
+  #adivinar:disabled {
+    opacity: 0.8;
+  }
