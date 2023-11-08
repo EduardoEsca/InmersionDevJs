@@ -6,6 +6,7 @@ body {
     background-size: cover;
     background-position: center top;
     background-repeat: no-repeat;
+    background-attachment: fixed;
     height: 100vh;
   }
   
@@ -28,6 +29,14 @@ body {
     width: 170px;
   }
   
+  .icon-house {
+    width: 40px;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    cursor: pointer;
+  }
+
   .alura-latam-logo {
     width: 40px;
     position: absolute;
