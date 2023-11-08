@@ -47,6 +47,11 @@ body {
     margin: 0 10px;
   }
   
+  img:hover {
+    transform: scale(1.1);
+    filter: brightness(75%);
+  }
+
   img {
     max-height: 250px;
   }
