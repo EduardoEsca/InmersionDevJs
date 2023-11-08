@@ -73,7 +73,7 @@ body {
     }
 
     .info {
-        background-color: rgba(0, 0, 0, 1);
+        background-color: rgba(0, 0, 0, 0.92);
         left: 2vw;
         right: 2.2vw;
         color: white;
