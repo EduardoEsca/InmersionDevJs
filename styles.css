@@ -3,31 +3,75 @@ body {
 }
 
 .title h1 {
-    font-size: 40px;
-    font-weight: bold;
+    font-size: 5vw;
     color: white;
     text-align: center;
-    margin-top: 150px;
+    margin-top: 6vw;
+    font-family: 'Righteous';
 }
 .title h2 {
     font-size: 15px;
     color: white;
     text-align: center;
+    margin: 3vw;
 }
 
 .container {
     display: flex;
-    align-items: center;
-    flex-direction: row;
-    background-color: antiquewhite;
+    justify-content: center;
+    flex-wrap: wrap;
 }
 
 .projects {
-    flex: auto;
-    background-color: antiquewhite;
+    flex: 1;
+    text-align: center;
+    position: relative;
 }
 
 .projects img {
-    max-height: 200px;
-    max-width: 350px;
+    border-radius: 20px;
+    max-width: 90%;
+    height: auto;
+    margin: 1vw;
+}
+
+.info {
+    position: absolute;
+    bottom: -2vw;
+    left: 1.6vw;
+    right: 1.6vw;
+    background-color: rgba(0, 0, 0, 1);
+    color: white;
+    padding: 1vw;
+    text-align: center;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+@media (max-width: 768px) {
+    .container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .projects {
+        margin-bottom: 20px; 
+        text-align: center;
+    }
+
+    .projects img {
+        max-width: 95%;
+    }
+
+    .info {
+        background-color: rgba(0, 0, 0, 1);
+        left: 2vw;
+        right: 2.2vw;
+        color: white;
+        padding: 1vw;
+        text-align: center;
+        border-radius: 20px;
+        cursor: pointer;
+    }
 }

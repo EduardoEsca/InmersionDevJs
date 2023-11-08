@@ -39,8 +39,8 @@ body {
     margin: 0 10px;
   }
   
-  .projects img {
-    
+  img {
+    max-height: 350px;
   }
   
   .ingresar label{
